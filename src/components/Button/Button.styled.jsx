@@ -8,7 +8,7 @@ export const LoadMore = styled.button`
   text-align: center;
   display: inline-block;
   margin: auto;
-  color: #dddddd;
+  color: #e9e9e9;
   border: 0;
   text-decoration: none;
   cursor: pointer;

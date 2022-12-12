@@ -13,7 +13,7 @@ export const Header = styled.header`
   padding-left: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
-  color: #fff;
+  color: #e9e9e9;
   background-color: #1d1d1d;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
@@ -24,7 +24,7 @@ export const Form = styled.form`
   align-items: center;
   width: 100%;
   max-width: 600px;
-  background-color: #fff;
+  background-color: #e9e9e9;
   border-radius: 3px;
   overflow: hidden;
 `;
@@ -34,7 +34,6 @@ export const FormButton = styled.button`
   width: 48px;
   height: 48px;
   border: 0;
-  background-image: url('https://image.flaticon.com/icons/svg/149/149852.svg');
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
@@ -69,6 +68,7 @@ export const FormInput = styled.input`
   outline: none;
   padding-left: 4px;
   padding-right: 4px;
+  background-color: #e9e9e9;
 
   ::placeholder {
     font: inherit;
